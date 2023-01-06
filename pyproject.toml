@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "no-holidays"
+version = "0.1.0"
+description = ""
+authors = ["Espen Hafstad Solvang <espenhafstadsolvang@gmail.com>"]
+readme = "README.md"
+packages = [{include = "no_holidays"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.2"
+openpyxl = "^3.0.10"
+pyarrow = "^10.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
